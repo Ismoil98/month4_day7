@@ -436,14 +436,25 @@
 
 
 // String30
-
-
-
-
-
-
-
-
+// let str = 'D:/Qudrat_c++/books/My_book.exe'
+// console.log(str);
+// let reStr = str.split("").reverse().join("")
+// function StartIndex (reStr) {
+//     for (let i=0; i<reStr.length-1; i++) 
+//             if (reStr[i] === '/') {
+//                 return i+2
+//             }
+//         }
+// let starter = StartIndex(reStr)
+// function EndIndex (reStr, starter) {
+//     for(let i=starter; i<reStr.length-1; i++) {
+//         if (reStr[i] === '/') {
+//         return i
+//         }
+//     }
+// }
+// let ender = EndIndex(reStr, starter)
+// console.log((reStr.slice(starter-1, ender)).split("").reverse().join(""));
 
 
 

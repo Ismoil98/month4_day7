@@ -206,7 +206,6 @@
 
 
 
-
 // String16
 // let c = prompt("С: ")
 // let s = prompt('S: ')
@@ -221,20 +220,235 @@
 
 
 
-
 // String17
-let S1 = prompt('S1')
-console.log(S1);
-let S2 = prompt('S2')
-console.log(S2);
-let s = 0
-let length2 = S2.length
-for (let i=0; i<S1.length; i++) {
-    if (S1.slice(i, i+length2) === S2) {
-        s++
-    }
-}
-console.log(s);
+// let S1 = prompt('S1')
+// console.log(S1);
+// let S2 = prompt('S2')
+// console.log(S2);
+// let s = 0
+// let length2 = S2.length
+// for (let i=0; i<S1.length; i++) {
+//     if (S1.slice(i, i+length2) === S2) {
+//         s++
+//     }
+// }
+// console.log(s);
 
 
 
+// String18
+// let S1 = prompt('S1')
+// console.log(S1);
+// let S2 = prompt('S2')
+// console.log(S2);
+// let s = ''
+// let length2 = S2.length
+// for (let i=0; i<S1.length; i++) {
+//     if (S1.slice(i, i+length2) === S2) {
+//         s = S1.slice(0, i)
+//         s = s + S1.slice(i+S2.length, S1.length)
+//         i=S1.length
+//     }
+// }
+// console.log(s);
+
+
+
+// String19
+// let S1 = prompt('S1')
+// console.log(S1);
+// let S2 = prompt('S2')
+// console.log(S2);
+// let s = ''
+// let counter = 0;
+// let length2 = S2.length
+// for (let i=0; i<S1.length; i++) {
+//     counter ++
+//     if (S1.slice(i, i+length2) === S2) {
+//         s = s + S1.slice(i-counter, i)
+//         i= i+S2.length
+//         counter = 0
+//     }
+// }
+// s = s +S1.slice(S1.length-counter-1, S1.length)
+// console.log(s);
+
+
+
+// String20
+// let S1 = prompt('S1')
+// console.log(S1);
+// let S2 = prompt('S2')
+// console.log(S2);
+// let S3 = prompt('S3')
+// console.log(S3);
+// let newS = 0
+// let length2 = S2.length
+// for (let i=0; i<S1.length; i++) {
+//     if (S1.slice(i, i+length2) === S2) {
+//         newS = S1.slice(0,i) + S3 + S1.slice(i+length2, S1.length)
+//         i = S1.length
+//     }
+// }
+// console.log(newS);
+
+
+
+// String21
+// let S1 = prompt('S1')
+// console.log(S1);
+// let S2 = prompt('S2')
+// console.log(S2);
+// let S3 = prompt('S3')
+// console.log(S3);
+// let newS = 0
+// let length2 = S2.length
+// for (let i=0; i<S1.length; i++) {
+//     if (S1.slice(i, i+length2) === S2) {
+//         newS = S1.slice(0,i) + S3 + S1.slice(i+length2, S1.length)
+//     }
+// }
+// console.log(newS);
+
+
+
+// String22
+// let str = prompt('str: ')
+// let arr = str.split(" ")
+// let s = 0
+// for (let i of arr) {
+//     if (i[0] === i[i.length-1]) {
+//         console.log(i);
+//         s ++
+//     }
+// }
+// console.log(s);
+
+
+
+// String23
+// let str = prompt('str: ')
+// let arr = str.split(" ")
+// let s = 0
+// let CountA
+// for (let i of arr) {
+//     CountA = 0
+//     for(let j=0; j<i.length; j++) {
+//         if (i[j] === 'A') {
+//             CountA ++
+//         }
+//     }
+//     if (CountA >=2) {
+//         console.log(i);
+//         s++
+//     }
+// }
+// console.log(s);
+
+
+
+// String24
+// let str = prompt('str: ')
+// let arr = str.split(" ")
+// let max = arr[0]
+// let CountA = 0
+// function getMaxOfString(str) {
+//     for (let i of arr) {
+//         if (i.length > max.length) {
+//             max = i
+//         }
+//     }
+//     return max
+// }
+// let x = getMaxOfString(arr)
+// console.log(x);
+
+
+
+// String25
+// let str = prompt('str: ')
+// let arr = str.split(" ")
+// str = arr.join('. ')
+// console.log(str);
+
+
+
+// String26
+// let str = prompt('str: ')
+// let arr = str.split(" ") 
+// let changer = []
+// let restarter = ''
+// let newStr = ''
+// for (let i of arr) {
+//     changer = i[0];
+//     restarter = changer.toUpperCase()
+//     i = restarter + i.slice(1, i.length)
+//     newStr = newStr + i + " "
+// }
+// console.log(newStr);
+
+
+
+// String27
+// let arrSyb = [".", ",", ";", ":", "?", "!", "-", "'", '"', "(", ")"]
+// let str = prompt('str: ')
+// let arr = str.split("") 
+// let s = 0
+// for (let i=0; i<arr.length; i++) {
+//     for (let j of arrSyb) {
+//         if (j === arr[i]) {
+//             s ++
+//         }
+//     }
+// }
+// console.log(s);
+
+
+
+// String28
+// let str = 'D:/Qudrat_c++/books/My_book.exe'
+// console.log(str);
+// str = str.split("").reverse().join("")
+// let NumberEnd = 0
+// let NumberStert = 0
+// for (let i=0; i<str.length-1; i++) {
+//     if (str[i] === '.') {
+//         NumberStert = i+1
+//     }
+//     if (str[i] === '/') {
+//         NumberEnd = i
+//         i = str.length
+//     }
+// }
+// let result = (str.slice(NumberStert, NumberEnd)).split("").reverse().join("")
+// console.log(result);
+
+
+
+// String29
+// let str = 'D:/Qudrat_c++/books/My_book.exe'
+// for (let i=0; i<str.length-1; i++) {
+//     if (str[i] === '.') {
+//         console.log(str.slice(i, str.length));
+//     }
+// }
+
+
+
+// String30
+
+
+
+
+
+
+
+
+
+
+
+
+// Ajoyib funksiya
+// function reverse(s){
+//     return s.split("").reverse().join("");
+// }

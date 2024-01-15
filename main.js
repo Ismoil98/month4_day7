@@ -128,7 +128,14 @@
 
 
 // String10
-
+// let str = +prompt('n=')
+// if (Number.isInteger(str)) {
+//     console.log('Integer');
+// } else if (!isNaN(str)) {
+//     console.log('Float');
+// } else {
+//     console.log('0');
+// }
 
 
 // String11
@@ -153,7 +160,7 @@
 
 
 
-// String13 *******************************************
+// String13 *
 // let str = prompt()
 // console.log(`son: ${str}`);
 // let son = ''

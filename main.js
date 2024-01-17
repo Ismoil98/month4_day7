@@ -163,19 +163,14 @@
 // String13 *
 // let str = prompt()
 // console.log(`son: ${str}`);
-// let son = ''
+// let son
 // let S = 0;
 // for (let i of str) {
-//     console.log(son);
 //     if (i === '-') {
-//         S = S - Number('son')
-//         console.log(S = S + Number('son'));
+//         S = Number(S) - Number('son')
 //         son = ''
-//         console.log(i);
 //     } else if (i === '+') {
-//         S = S + Number('son')
-//         console.log(S = S + Number('son'));
-//         console.log(i);
+//         S = Number(S) + Number('son')
 //     } else {
 //         son += i
 //     }
@@ -321,6 +316,7 @@
 
 // String22
 // let str = prompt('str: ')
+// console.log(str);
 // let arr = str.split(" ")
 // let s = 0
 // for (let i of arr) {
